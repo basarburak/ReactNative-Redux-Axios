@@ -1,0 +1,27 @@
+dependencies: \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/node_modules/react-native/Libraries/Blob/RCTBlobManager.mm \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/node_modules/react-native/Libraries/Blob/RCTBlobManager.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestHandler.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworking.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTNetworkTask.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTWebSocketModule.h

@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTPropsAnimatedNode.m \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTPropsAnimatedNode.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/node_modules/react-native/Libraries/NativeAnimation/RCTAnimationUtils.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTStyleAnimatedNode.h \
+  /Users/burakbasar/Documents/GitHub/ReactNative-Redux-Oxios/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h
