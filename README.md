@@ -1,3 +1,2 @@
 # ReactNative-Redux-Oxios
-
-yarn
+React Native Oxios Middleware
