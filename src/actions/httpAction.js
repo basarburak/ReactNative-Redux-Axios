@@ -3,7 +3,6 @@ import axios from 'axios';
 import { apiUrl } from '../constant/global';
 
 export const httpGet = (method) => {
-  //console.log(method);
   return (dispatch) => {
     myDispatcher(dispatch, SHOW_LOADING, true);
 
@@ -11,7 +10,7 @@ export const httpGet = (method) => {
       method: 'get',
       url: apiUrl + method
     }).then(res => {
-      myDispatcher(dispatch, HTTP_SUCCESS, res.data);
+      myDispatcher(dispatch, HTTP_SUCCESS, { response: res.data, request: method });
     }).catch(err => {
       myDispatcher(dispatch, HTTP_ERROR, err);
     });
