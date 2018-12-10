@@ -1,2 +1,2 @@
-# ReactNative-Redux-Oxios
-React Native Oxios Middleware
+# ReactNative-Redux-Axios
+React Native Axios Middleware
