@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
-import { Button, List, ListItem, Text } from 'react-native-elements';
+import { Button, List, ListItem } from 'react-native-elements';
 import { connect } from "react-redux";
 import { httpGet } from '../../actions';
 import { getAlbums } from '../../constant/global';
@@ -37,11 +37,13 @@ class HomeScreen extends Component {
         return (
             <View>
                 <Header headerText="Home" />
-                {
-                    isLoading
-                        ? <Text>Loading</Text>
-                        : <Button title='GET' onPress={() => httpGet(getAlbums)} />
-                }
+                <Button
+                    loading={isLoading}
+                    disabled={isLoading}
+                    title='Get Allbums'
+                    onPress={() => httpGet(getAlbums)}
+                />
+
             </View>
         );
     }
