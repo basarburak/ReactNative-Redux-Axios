@@ -4,8 +4,7 @@ import { getAlbums } from '../constant/global';
 const INITIAL_STATE =
 {
     errorMessage: '',
-    isLoading: false,
-    albums: ''
+    isLoading: false
 }
 
 export default httpReducer = (state = INITIAL_STATE, action) => {
@@ -22,7 +21,6 @@ export default httpReducer = (state = INITIAL_STATE, action) => {
             return state;
     }
 }
-
 
 const httpTostate = (apiMethod, result) => {
     switch (apiMethod) {

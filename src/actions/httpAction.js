@@ -24,4 +24,3 @@ const myDispatcher = (dispatch, type, payload) => {
     payload: payload
   });
 };
-

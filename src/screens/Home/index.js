@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
-import { Header, Button, List, ListItem, Text } from 'react-native-elements';
+import { Button, List, ListItem, Text } from 'react-native-elements';
 import { connect } from "react-redux";
 import { httpGet } from '../../actions';
 import { getAlbums } from '../../constant/global';
+import Header from '../../components/Header';
+import styles from './styles';
 
 class HomeScreen extends Component {
     constructor(props) {
@@ -16,9 +18,9 @@ class HomeScreen extends Component {
         if (albums) {
             return (
                 <View>
-                     <Header centerComponent={{ text: 'Albums', style: { color: '#fff' } }} />
+                    <Header headerText="Albums" />
 
-                    <List containerStyle={{ marginBottom: 20 }}>
+                    <List containerStyle={styles.containerStyle}>
                         {
                             albums.map((album) => (
                                 <ListItem
@@ -31,10 +33,10 @@ class HomeScreen extends Component {
                 </View>
             )
         }
-        
+
         return (
             <View>
-                <Header centerComponent={{ text: 'Home', style: { color: '#fff' } }} />
+                <Header headerText="Home" />
                 {
                     isLoading
                         ? <Text>Loading</Text>
@@ -46,8 +48,7 @@ class HomeScreen extends Component {
 }
 
 const mapStateToProps = state => {
-    const { errorMessage, isLoading, albums } = state.http;
-    return { isLoading, errorMessage, albums };
+    return { isLoading, errorMessage, albums } = state.http;
 };
 
 export default connect(mapStateToProps, { httpGet })(HomeScreen);
