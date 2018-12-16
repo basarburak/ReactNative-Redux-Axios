@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>418486CD-B694-4B51-9CAB-0CE4EA8F65E7</key>
+		<key>8ED06A89-68DD-46BC-8BCE-1D4C162C8DF7</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>418486CD-B694-4B51-9CAB-0CE4EA8F65E7.xcactivitylog</string>
+			<string>8ED06A89-68DD-46BC-8BCE-1D4C162C8DF7.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,42 +27,13 @@
 			<key>signature</key>
 			<string>Building project RnApp with scheme RnApp and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>566159896.92634296</real>
+			<real>566647450.49895298</real>
 			<key>timeStoppedRecording</key>
-			<real>566159902.62676799</real>
+			<real>566647452.30331302</real>
 			<key>title</key>
 			<string>Building project RnApp with scheme RnApp and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>418486CD-B694-4B51-9CAB-0CE4EA8F65E7</string>
-		</dict>
-		<key>4EAD3749-5AB8-4590-8CCC-4898A8DA365C</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>4EAD3749-5AB8-4590-8CCC-4898A8DA365C.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>RnApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>RnApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project RnApp with scheme RnApp and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>566159724.34006298</real>
-			<key>timeStoppedRecording</key>
-			<real>566159726.30750895</real>
-			<key>title</key>
-			<string>Building project RnApp with scheme RnApp and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>4EAD3749-5AB8-4590-8CCC-4898A8DA365C</string>
+			<string>8ED06A89-68DD-46BC-8BCE-1D4C162C8DF7</string>
 		</dict>
 	</dict>
 </dict>

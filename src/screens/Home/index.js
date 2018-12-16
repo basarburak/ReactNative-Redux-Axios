@@ -1,35 +1,63 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { View, ScrollView } from 'react-native';
 import { Button, List, ListItem } from 'react-native-elements';
 import { connect } from "react-redux";
 import { httpGet } from '../../actions';
-import { getAlbums } from '../../constant/global';
 import Header from '../../components/Header';
 import styles from './styles';
+import { commentApi } from '../../services/apiService';
 
 class HomeScreen extends Component {
     constructor(props) {
         super(props);
     }
 
-    render() {
-        const { httpGet, isLoading, albums } = this.props;
+    getComment(postId) {
+        this.props.httpGet(commentApi.getParams(postId));
+    }
 
-        if (albums) {
+    render() {
+        const { httpGet, isLoading, comments, comment } = this.props;
+
+        if (comments && !comment) {
             return (
                 <View>
-                    <Header headerText="Albums" />
+                    <Header headerText="Comments" />
 
-                    <List containerStyle={styles.containerStyle}>
-                        {
-                            albums.map((album) => (
-                                <ListItem
-                                    key={album.id}
-                                    title={album.title}
-                                />
-                            ))
-                        }
-                    </List>
+                    <ScrollView>
+                        <List containerStyle={styles.containerStyle}>
+                            {
+                                comments.map((cmd) => (
+                                    <ListItem
+                                        key={cmd.id}
+                                        onPress={() => this.getComment(cmd.postId)}
+                                        title={cmd.postId + ' ' + cmd.name}
+                                    />
+                                ))
+                            }
+                        </List>
+                    </ScrollView>
+                </View>
+            )
+        }
+        if (comment) {
+            return (
+                <View>
+                    <Header headerText="Comment" />
+
+                    <ScrollView>
+                        <List containerStyle={styles.containerStyle}>
+                            {
+                                comment.map((cmd) => (
+                                    <ListItem
+                                        key={cmd.id}
+                                        onPress={() => this.getComment(cmd.postId)}
+                                        title={cmd.postId + ' ' + cmd.name}
+                                    />
+                                ))
+                            }
+                        </List>
+                    </ScrollView>
                 </View>
             )
         }
@@ -41,7 +69,7 @@ class HomeScreen extends Component {
                     loading={isLoading}
                     disabled={isLoading}
                     title='Get Allbums'
-                    onPress={() => httpGet(getAlbums)}
+                    onPress={() => httpGet(commentApi.get())}
                 />
 
             </View>
@@ -50,7 +78,7 @@ class HomeScreen extends Component {
 }
 
 const mapStateToProps = state => {
-    return { isLoading, errorMessage, albums } = state.http;
+    return { isLoading, errorMessage, comments, comment } = state.http;
 };
 
 export default connect(mapStateToProps, { httpGet })(HomeScreen);
