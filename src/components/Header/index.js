@@ -17,7 +17,7 @@ export default class Header extends Component {
             <View>
                 <Head
                     centerComponent={{ text: this.props.headerText, style: styles.headerStyle }}
-                    rightComponent={{ icon: 'home', color: 'white',onPress : this.props.headerClick }}
+                    rightComponent={{ icon: 'info', color: 'white', onPress: this.props.headerClick }}
                 />
             </View>
         );

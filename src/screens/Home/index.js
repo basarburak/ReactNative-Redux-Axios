@@ -22,7 +22,7 @@ class HomeScreen extends Component {
         if (comments && !comment) {
             return (
                 <View>
-                    <Header headerText="Comments" headerClick={() => this.getProps()} />
+                    <Header headerText={ isLoading ? 'Loading Data' : 'Comments' } headerClick={() => this.getProps()} />
 
                     <ScrollView>
                         <List containerStyle={styles.containerStyle}>
@@ -69,7 +69,7 @@ class HomeScreen extends Component {
                 <Button
                     loading={isLoading}
                     disabled={isLoading}
-                    title='Get Allbums'
+                    title='Get Comments'
                     onPress={() => httpGet(commentApi.get())}
                 />
 
