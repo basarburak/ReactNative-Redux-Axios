@@ -9,8 +9,8 @@ const INITIAL_STATE = {
 export default httpReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
         case HTTP_SUCCESS:
-            state = httpTostate(action.payload.state, action.payload.response)
-            return { ...state, errorMessage: '', isLoading: false }
+            getState = httpTostate(action.payload.state, action.payload.response)
+            return { ...state, ...getState, errorMessage: '', isLoading: false }
         case HTTP_ERROR:
             return { ...state, errorMessage: action.payload, isLoading: false }
         case SHOW_LOADING:
@@ -23,11 +23,12 @@ export default httpReducer = (state = INITIAL_STATE, action) => {
 const httpTostate = (state, result) => {
     switch (state) {
         case comments:
-            return { ...INITIAL_STATE, comments: result }
+            return { comments: result }
         case comment:
-            return { ...INITIAL_STATE, comment: result }
+            return { comment: result }
         default:
             console.log('bulamadım');
+            alert('state Bulunamadı');
             break;
     }
 }

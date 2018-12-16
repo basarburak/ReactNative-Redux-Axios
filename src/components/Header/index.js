@@ -8,11 +8,16 @@ export default class Header extends Component {
         super(props);
     }
 
+    getProps() {
+        console.log(this.props);
+    }
+
     render() {
         return (
             <View>
                 <Head
                     centerComponent={{ text: this.props.headerText, style: styles.headerStyle }}
+                    rightComponent={{ icon: 'home', color: 'white',onPress : this.props.headerClick }}
                 />
             </View>
         );

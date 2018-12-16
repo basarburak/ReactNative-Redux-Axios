@@ -12,8 +12,8 @@ class HomeScreen extends Component {
         super(props);
     }
 
-    getComment(postId) {
-        this.props.httpGet(commentApi.getParams(postId));
+    getProps() {
+        console.log(this.props);
     }
 
     render() {
@@ -22,7 +22,7 @@ class HomeScreen extends Component {
         if (comments && !comment) {
             return (
                 <View>
-                    <Header headerText="Comments" />
+                    <Header headerText="Comments" headerClick={() => this.getProps()} />
 
                     <ScrollView>
                         <List containerStyle={styles.containerStyle}>
@@ -30,7 +30,7 @@ class HomeScreen extends Component {
                                 comments.map((cmd) => (
                                     <ListItem
                                         key={cmd.id}
-                                        onPress={() => this.getComment(cmd.postId)}
+                                        onPress={() => httpGet(commentApi.getParams(cmd.postId))}
                                         title={cmd.postId + ' ' + cmd.name}
                                     />
                                 ))
@@ -40,10 +40,11 @@ class HomeScreen extends Component {
                 </View>
             )
         }
+
         if (comment) {
             return (
                 <View>
-                    <Header headerText="Comment" />
+                    <Header headerText="Comment" headerClick={() => this.getProps()} />
 
                     <ScrollView>
                         <List containerStyle={styles.containerStyle}>
@@ -51,7 +52,6 @@ class HomeScreen extends Component {
                                 comment.map((cmd) => (
                                     <ListItem
                                         key={cmd.id}
-                                        onPress={() => this.getComment(cmd.postId)}
                                         title={cmd.postId + ' ' + cmd.name}
                                     />
                                 ))
@@ -64,7 +64,8 @@ class HomeScreen extends Component {
 
         return (
             <View>
-                <Header headerText="Home" />
+                <Header headerText="Home" headerClick={() => this.getProps()} />
+
                 <Button
                     loading={isLoading}
                     disabled={isLoading}

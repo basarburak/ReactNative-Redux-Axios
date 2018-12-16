@@ -5,7 +5,6 @@ import { apiUrl } from '../constant/global';
 export const httpGet = (config) => {
   return (dispatch) => {
     myDispatcher(dispatch, SHOW_LOADING, true);
-
     axios({
       method: 'get',
       url: apiUrl + config.method,
